@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iJhYTVWc2PqS+eH98/rID9IveNfeNGjC63qMGNAcUvbGtLM7mcQ37HpXFB7R+CCQiXoAg6J/fU/vmmKajUITsQ==",
+  "dgSpecHash": "1tVsR8nLfc/qzXr/Ku6BOXQa1SNIU9+i2Qvrlgq/KgTEd0WfcXkygE4+aJHF4xE412QqV/xROrMCp8fcpZubvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kassandra\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Kassandra\\Desktop\\Repos\\TrueCoders\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kassandra\\.nuget\\packages\\microsoft.codecoverage\\15.9.0\\microsoft.codecoverage.15.9.0.nupkg.sha512",
     "C:\\Users\\Kassandra\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
