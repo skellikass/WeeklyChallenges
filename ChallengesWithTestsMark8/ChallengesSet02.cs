@@ -21,6 +21,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            //could also just do "return vals.Length % 2 == 0;" because the default of a bool is "true"
         }
 
         public bool IsNumberEven(int number)
@@ -33,6 +34,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            //same thing here, could do "return number % 2 == 0;"
         }
 
         public bool IsNumberOdd(int num)
@@ -45,6 +47,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            //"return num % 2 != 0;"
         }
 
         public double SumOfMinAndMax(IEnumerable<double> numbers)
@@ -60,6 +63,7 @@ namespace ChallengesWithTestsMark8
             double min = numbers.Min();
             double max = numbers.Max();
             return min + max;
+            //or "return numbers.Min() + numbers.Max();" instead of making the variables
         }
 
         public int GetLengthOfShortestString(string str1, string str2)
@@ -128,6 +132,7 @@ namespace ChallengesWithTestsMark8
             {
                 return false;
             }
+            //return (numbers.Sum() % 2 == 0); is more CCR than the foreach loop with defining the sum
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
@@ -145,6 +150,10 @@ namespace ChallengesWithTestsMark8
             {
                 return number / 2;
             }
+            //or int count = 0;
+            //for (int i = 1; i < number; i +=2)
+            //{ count++; }
+            //return count;
         }
     }
 }
