@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -27,7 +28,13 @@ namespace ChallengesWithTestsMark8
 
         public string TurnWordsIntoSentence(string[] words)
         {
-            throw new NotImplementedException();
+            if (words== null || words.Length == 0)
+            {
+                return "";
+            }
+            words.Where(w => string.IsNullOrWhiteSpace(w));
+            var smooshedWords = words.Where(w => !string.IsNullOrWhiteSpace(w)).ToArray();
+            return string.Join(" ", smooshedWords) + ".";
         }
 
         public double[] GetEveryFourthElement(List<double> elements)
